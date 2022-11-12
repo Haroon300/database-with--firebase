@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url(./img/unnamed\ \(3\).jpg); */
+    /* background-image: url(./img/unnamed\ \(2\).jpg); */
+    /* background-image: url(./img/unnamed\ \(1\).jpg); */
+    /* background-image: url(./img/unnamed.jpg); */
+    background-image: url(https://images.unsplash.com/photo-1517921076612-169b401c825e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    /* background-image: url(https://images.unsplash.com/photo-1487804373225-facf5671c057?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80); */
+    /* background-image: url(https://images.unsplash.com/photo-1487028463993-b7f901a8c2eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: serif;
+    height: calc(100vh);
+    width: calc(100vw);
+    overflow: hidden;
+  }
+  img{
+    width: calc(50vw);
+    border-radius: 20px;
+  }
+  .heading{
+    /* color:#231557; */
+    font-size: 100px;
+    display: flex;
+  }
+  .header{
+    position:absolute;
+    top: 0%;
+    height: calc(30vh);
+    width: calc(100vw);
+    background-color: rgba(28, 28, 28, 0.552);
+  }
+  .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .over{
+    position: relative;
+    top: calc(30vh);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    height: calc(70vh);
+  }
+  .width{
+    width: calc(100vw);
+  }
+  .h1{
+    font-style: italic;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  .col{
+    flex-direction: column;
+  }
+  input{
+    border: none;
+    color: white;
+    box-shadow: inset -5px -5px 10px rgba(175, 173, 173, 0.491);
+    background-color: transparent;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+  }
+  input:focus{
+    outline: none;
+    background-color:rgba(110, 106, 106, 0.443); ;
+    outline-style: groove ;
+    box-shadow: inset -5px -5px 10px black;
+  }
+  button{
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 10px rgba(251, 248, 248, 0.491);
+    color: white;
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px 5px 10px;
+  }
+  button:hover{
+    background-color: rgba(163, 161, 161, 0.842);
+    box-shadow: inset 5px 5px 10px rgba(11, 11, 11, 0.588),
+                5px 5px 10px rgba(224, 221, 221, 0.587);
+    outline: groove;
+  }
+  .marg{
+    margin: 10px;
+  }
+  
+  .background-col{
+    /* position: relative;
+    top: calc(350vh); */
+    background-color: rgba(197, 195, 195, 0.631);
+    /* height: 300px; */
+    width: calc(50vw);
+    padding: 10px;
+    border-radius: 20px;
+  }
